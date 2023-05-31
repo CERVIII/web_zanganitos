@@ -4,12 +4,14 @@
 	box-sizing: border-box;
 }
 
-body
-{
+body{
 	font-family: 'open sans';
 }
 
-.contenedor
-{
+.contenedor{
 	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: auto;
 }
