@@ -8,15 +8,13 @@
 body
 {
 	font-family: 'Orbitron';
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #1b1b1b, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #1b1b1b, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: black;
 }
 
 header
 {
 	width: 100%;
-	height: 90px;
+	height: 120px;
 	background: #000000;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to top, #000000, #2b2a2a);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #000000, #2b2a2a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -52,7 +50,8 @@ header
 
 .menu
 {
-	margin-left: 150px;
+	font-size: 20px;
+	margin-left: 300px;
 }
 
 .menu a
@@ -60,6 +59,13 @@ header
 	color: yellow;
 	text-decoration: none;
 	padding: 10px;
+}
+
+.menu a:hover
+{
+		border: 2px solid yellow;
+		background-color: transparent;
+		border-radius: 10px;
 }
 
 .contenedor
